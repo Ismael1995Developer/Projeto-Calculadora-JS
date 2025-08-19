@@ -1,15 +1,68 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap w/ Vite</title>
+    <title>Calculadora</title>
     <script type="module" src="./js/main.js"></script>
   </head>
-  <body>
-    <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <button class="btn btn-primary">Primary button</button>
+  <body class="overflow-hidden">
+    <header class="container-flex">
+    </header>
+        <main class="container text-center">
+            <section class="row text-center mb-5">
+                <h1 class="mb-4 p-4">Calculadora Simples</h1>
+                <P class="mb-2">Essa <span class="">Calculadora</span> é um projeto simples para atender calculos rapidos e com maxima eficiencia!</P>
+            </section>
+            <div class="backgroundColor">
+            <section class="row text-center">
+                <div class="mb-2 alert alert-dark" id="displayCalculadora">
+                    display
+                </div>
+            </section>
+                <section class="row text-center">
+                    <div class="d-flex justify-content-center mb-2">
+                        <button class="col-sm-2">%</button>
+                        <button class="col-sm-2">CE</button>
+                        <button class="col-sm-2">C</button>
+                        <button class="col-sm-2">Raiz</button>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button class="col-sm-2">X²</button>
+                        <button class="col-sm-2">Hist</button>
+                        <button class="col-sm-2">A</button>
+                        <button class="col-sm-2">X</button>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button class="col-sm-2">7</button>
+                        <button class="col-sm-2">8</button>
+                        <button class="col-sm-2">9</button>
+                        <button class="col-sm-2">-</button>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button class="col-sm-2">6</button>
+                        <button class="col-sm-2">5</button>
+                        <button class="col-sm-2">4</button>
+                        <button class="col-sm-2">+</button>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2">
+                        <button class="col-sm-2">3</button>
+                        <button class="col-sm-2">2</button>
+                        <button class="col-sm-2">1</button>
+                        <button class="col-sm-2">/</button>
+                    </div>
+                    <div class="d-flex justify-content-center mb-2 mb-2">
+                        <button class="col-sm-2">+/-</button>
+                        <button class="col-sm-2">0</button>
+                        <button class="col-sm-2">,</button>
+                        <button class="col-sm-2">=</button>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <h3>ismael @Front-end</h3>
+        </footer>
     </div>
   </body>
 </html>
