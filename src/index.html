@@ -11,51 +11,51 @@
     </header>
         <main class="container text-center">
             <section class="row text-center mb-5">
-                <h1 class="mb-4 p-4">Calculadora Simples</h1>
-                <P class="mb-2">Essa <span class="">Calculadora</span> é um projeto simples para atender calculos rapidos e com maxima eficiencia!</P>
+                <h1 class="mb-4 p-4">Calculadora</h1>
+                <P class="mb-2">Essa <span class="">Calculadora</span> é um projeto simples para atender calculos rápidos e com maxíma eficiência!</P>
             </section>
             <div class="backgroundColor">
             <section class="row text-center">
                 <div class="mb-2 alert alert-dark" id="displayCalculadora">
-                    display
+                    <input class="w-100" type="text" id="inputSaidaCal" readonly>
                 </div>
             </section>
                 <section class="row text-center">
                     <div class="d-flex justify-content-evenly mb-2">
-                        <button type="button" class="col-sm-2 btn btn-secondary">%</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">Raiz</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">CE</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">C</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="%" id="btnPor">%</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="√" id="btnRai">√</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" id="btnCe">CE</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" id="btnC">C</button>
                     </div>
                     <div class="d-flex justify-content-evenly mb-2">
-                        <button type="button" class="col-sm-2 btn btn-secondary">X²</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">Hist</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">A</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">X</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="^" id="btnPotenc">X²</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" id="btnHist">Hist</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" id="btnA">A</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="*" id="btnMult">*</button>
                     </div>
                     <div class="d-flex justify-content-evenly mb-2">
-                        <button type="button" class="col-sm-2 btn btn-secondary">7</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">8</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">9</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">-</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="7" id="btn7">7</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="8" id="btn8">8</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="9" id="btn9">9</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="-" id="btnMenos">-</button>
                     </div>
                     <div class="d-flex justify-content-evenly mb-2">
-                        <button type="button" class="col-sm-2 btn btn-secondary">6</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">5</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">4</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">+</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="6" id="btn6">6</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="5" id="btn5">5</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="4" id="btn4">4</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="+" id="btnMais">+</button>
                     </div>
                     <div class="d-flex justify-content-evenly mb-2">
-                        <button type="button" class="col-sm-2 btn btn-secondary">3</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">2</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">1</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">/</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="3" id="btn3">3</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="2" id="btn2">2</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="1" id="btn1">1</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="/" id="btnDivi">/</button>
                     </div>
                     <div class="d-flex justify-content-evenly mb-2 mb-2">
-                        <button type="button" class="col-sm-2 btn btn-secondary">+/-</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">0</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">,</button>
-                        <button type="button" class="col-sm-2 btn btn-secondary">=</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="+/-" id="btnMaisMenos">+/-</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="0" id="btn0">0</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" value="." id="btnPont">.</button>
+                        <button type="button" class="col-sm-2 btn btn-secondary" id="btnResul">=</button>
                     </div>
                 </section>
             </div>

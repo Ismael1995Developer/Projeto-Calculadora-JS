@@ -1,6 +1,7 @@
 import { resolve } from 'path'
 
 export default {
+  base: '/Projeto-Calculadora-JS/', // Nome do repositorio que esta o projeto no git
   root: resolve(__dirname, 'src'),
   build: {
     outDir: '../dist'
